@@ -396,12 +396,16 @@
 }
 .img-me{
     display: inline-block;
+    position: absolute;
     margin-bottom: 25px;
+    top: 0;
+    left: 0;
 }
 .img-sat{
+    display: inline-block;
     position: absolute;
-    bottom: 0;
-    left: 13.5%;
+    top: 0;
+    left: 0;
     margin-bottom: 25px;
 }
 .overlay{
@@ -410,5 +414,7 @@
 }
 .overlay:hover{
     opacity: 0.8;
-    
+}
+.img-overlap{
+    position: relative;
 }
