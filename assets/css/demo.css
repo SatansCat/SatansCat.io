@@ -395,15 +395,15 @@
     margin-bottom: 15px;
 }
 .img-me{
-    display: inline-block;
     position: absolute;
+    display: inline-block;
     margin-bottom: 25px;
     top: 0;
     left: 0;
 }
 .img-sat{
-    display: inline-block;
     position: absolute;
+    display: inline-block;
     top: 0;
     left: 0;
     margin-bottom: 25px;
@@ -416,5 +416,17 @@
     opacity: 0.8;
 }
 .img-overlap{
+    position: absolute;
     position: relative;
+}
+
+@media (max-width: 768px) {
+	.move-txt-down-xs{
+		margin-top:400px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.move-txt-down-sm{
+		margin-top:550px;
+	}
 }
