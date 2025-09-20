@@ -426,6 +426,9 @@
 .contacts-title{
     height: 420px
 }
+.contacts-links{
+    margin-top:1.5%
+}
 
 @media (max-width: 768px) {
 	.move-txt-down-xs{
