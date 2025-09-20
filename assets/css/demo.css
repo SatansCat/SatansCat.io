@@ -429,6 +429,30 @@
 .contacts-links{
     margin-top:1.5%
 }
+.carousel-titles{
+    position: absolute;
+    margin-left: 15%;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
+    text-transform: uppercase;
+}
+.carousel-header{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Times New Roman";
+    background-image: url('../img/WoodenBackboard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:30px;
+    padding-top:30px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
 
 @media (max-width: 768px) {
 	.move-txt-down-xs{
