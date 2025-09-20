@@ -419,6 +419,10 @@
     position: absolute;
     position: relative;
 }
+.cv-img{
+    width:100%;
+    margin-top:100px
+}
 
 @media (max-width: 768px) {
 	.move-txt-down-xs{
