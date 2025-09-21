@@ -431,9 +431,10 @@
 }
 .carousel-titles{
     position: absolute;
-    margin-left: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     color: #FFFFFF;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 600;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
@@ -443,7 +444,8 @@
     text-align: center;
     color: #FFFFFF;
     font-family: "Times New Roman";
-    background-image: url('../img/WoodenBackboard.png');
+    background-color: rgba(52, 172, 220, 0.98);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -455,11 +457,18 @@
 
 
 @media (max-width: 768px) {
+	.carousel-titles{
+		font-size: 20px;
+		
+	}
 	.move-txt-down-xs{
 		margin-top:400px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	.carousel-titles{
+		font-size: 35px;
+	}
 	.move-txt-down-sm{
 		margin-top:550px;
 	}
