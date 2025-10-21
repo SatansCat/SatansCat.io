@@ -482,6 +482,11 @@
     margin-left:20%;
 }
 
+.fire-safety-pic{
+    margin-left:35%;
+}
+
+
 @media (max-width: 768px) {
 	.carousel-titles{
 		font-size: 20px;
@@ -496,6 +501,10 @@
 	.letter-of-recommendation{
     		margin-left:0%;
 	}
+	.fire-safety-pic{
+    		margin-left:0%;
+}
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.carousel-titles{
